@@ -5,12 +5,12 @@ body {
   background: #fff;
 }
 
-ul, ol {
-	list-style-type: none;
+a {
+  text-decoration: none;
 }
 
-.link {
-  text-decoration: none;
+ul {
+  list-style: none;
 }
 
 /* section-title */
@@ -44,7 +44,7 @@ ul, ol {
 .studio {
   color: #2e2f42;
 }
-.link-main .link{
+.link-main .link {
   color: #2e2f42;
 }
 .link:hover {
@@ -64,7 +64,7 @@ ul, ol {
   letter-spacing: 0.32px;
 }
 
-.contacts-link .link{
+.contacts-link .link {
   color: #434455;
 }
 
@@ -106,7 +106,6 @@ ul, ol {
 }
 
 /* section-2 */
-
 
 .text-title {
   color: #2e2f42;
