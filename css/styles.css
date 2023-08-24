@@ -36,7 +36,6 @@ body {
 }
 .top-line .container {
   display: flex;
-  box-sizing: border-box
   gap: 332px;
 }
 
