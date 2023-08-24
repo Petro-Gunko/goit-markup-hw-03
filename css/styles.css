@@ -1,8 +1,43 @@
 /* Body */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background: #fff;
+  margin: 0;
+}
+
+.top-line {
+  width: 1440px;
+  height: 72px;
+}
+.top-line .container {
+  display: flex;
+  box-sizing: border-box
+  gap: 332px;
 }
 
 a {
@@ -13,15 +48,12 @@ ul {
   list-style: none;
 }
 
-/* section-title */
-
-.first-block {
-  background: #2e2f42;
-}
 
 /* navigation bar */
 
 .navig {
+  display: flex;
+  gap: 76px;
   color: #2e2f42;
   font-size: 16px;
   font-style: normal;
@@ -43,16 +75,25 @@ ul {
 }
 .studio {
   color: #2e2f42;
+  width: 71px;
 }
+
+.link-main {
+  display: flex;
+  gap: 40px;
+  width: auto;
+  height: auto;
+}
+
 .link-main .link {
   color: #2e2f42;
 }
+
+.link:focus,
 .link:hover {
   color: #404bbf;
 }
-.link:focus {
-  color: #404bbf;
-}
+
 
 /* contacts */
 .contacts {
@@ -64,19 +105,33 @@ ul {
   letter-spacing: 0.32px;
 }
 
+.contacts-link {
+  display: flex;
+  gap: 40px;
+
+}
+
 .contacts-link .link {
   color: #434455;
 }
-
+.link:focus,
 .link:hover {
   color: #404bbf;
 }
-.link:focus {
-  color: #404bbf;
-}
+
 
 /* section-1 */
 
+.first-block {
+  background: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  
+}
+
+.first-block .container{
+    padding-top: 188px;
+}
 .title {
   color: #fff;
   text-align: center;
@@ -84,6 +139,7 @@ ul {
   font-style: normal;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
+  width: 496px;
 }
 
 .modal-btn {
@@ -95,6 +151,7 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   background: #4d5ae5;
+  margin-top: 64px;
 }
 
 .modal-btn:hover {
@@ -106,6 +163,11 @@ ul {
 }
 
 /* section-2 */
+
+.Advantages {
+  width: 1440px;
+  height: 3300px;
+}
 
 .text-title {
   color: #2e2f42;
@@ -126,6 +188,8 @@ ul {
 
 .team-section {
   background: #f4f4fd;
+  width: 1440px;
+  height: 732px;
 }
 
 .title-team {
@@ -167,6 +231,8 @@ ul {
 
 .portfolio-section {
   background-color: #ffffff;
+  width: 1440px;
+  height: 3300px;
 }
 
 .portfolio-list {
@@ -187,6 +253,8 @@ ul {
 .footer-style {
   flex-shrink: 0;
   background: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 
 .studio-footer {
@@ -197,4 +265,10 @@ ul {
   color: #f4f4fd;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
