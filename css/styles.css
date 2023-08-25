@@ -32,17 +32,15 @@ body {
 
 .top-line {
   height: 72px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 .top-line .container {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 
 a {
@@ -85,10 +83,10 @@ ul {
 
 .link-main {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
   width: auto;
   height: auto;
+  padding: 24px 0;
 }
 
 .link-main .link {
@@ -134,7 +132,6 @@ ul {
 }
 
 .first-block .container {
-  
 }
 .title {
   color: #fff;
@@ -182,7 +179,6 @@ ul {
 }
 
 .Advantages .container {
-
 }
 
 .visually-hidden {
@@ -231,7 +227,7 @@ ul {
   padding: 120px 0;
 }
 
-.team-section .container{
+.team-section .container {
   text-align: center;
   padding: 120px 0;
 }
@@ -254,12 +250,12 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.names-end-profesions{
-padding: 32px 0;
-text-align: center;
+.names-end-profesions {
+  padding: 32px 0;
+  text-align: center;
 }
 
-.soft-skills{
+.soft-skills {
   margin-bottom: 8px;
 }
 
@@ -292,7 +288,7 @@ text-align: center;
   max-width: 100%;
 }
 
-.portfolio-section .container{
+.portfolio-section .container {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -315,15 +311,14 @@ text-align: center;
   gap: 32px 24px;
 }
 
-.portfolio-items{
+.portfolio-items {
   padding: 32px 16px 8px 16px;
   text-align: start;
 }
-.portfolio-items-text{
+.portfolio-items-text {
   padding: 0 16px 32px 16px;
   text-align: start;
 }
-
 
 /* footer */
 
@@ -333,9 +328,9 @@ text-align: center;
   max-width: 100%;
 }
 
-.footer-style .container{
-padding-top: 100px;
-padding-bottom: 100px;
+.footer-style .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .studio-footer {
@@ -349,7 +344,7 @@ padding-bottom: 100px;
   width: 264px;
   padding-top: 17px;
 }
-.logo-footer{
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
