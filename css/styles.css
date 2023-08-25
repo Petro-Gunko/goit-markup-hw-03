@@ -229,6 +229,7 @@ ul {
   background: #f4f4fd;
   max-width: 100%;
   height: 732px;
+  padding: 120px 0;
 }
 
 .team-section .container{
@@ -252,6 +253,12 @@ ul {
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.names-end-profesions{
+padding: 32px 0;
+text-align: center;
 }
 
 .soft-skills{
@@ -260,7 +267,6 @@ ul {
 
 .team-link-list {
   background-color: #ffffff;
-  padding-bottom: 32px;
 }
 
 .names-our-team {
@@ -271,7 +277,6 @@ ul {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
