@@ -131,8 +131,7 @@ ul {
   padding: 188px 0;
 }
 
-.first-block .container {
-}
+
 .title {
   color: #fff;
   font-size: 56px;
@@ -178,8 +177,6 @@ ul {
   padding-bottom: 120px;
 }
 
-.Advantages .container {
-}
 
 .visually-hidden {
   position: absolute;
@@ -224,13 +221,10 @@ ul {
   background: #f4f4fd;
   max-width: 100%;
   height: 732px;
-  padding: 120px 0;
-}
-
-.team-section .container {
   text-align: center;
   padding: 120px 0;
 }
+
 
 .title-team {
   color: #2e2f42;
@@ -289,6 +283,7 @@ ul {
 .portfolio-section {
   background-color: #ffffff;
   max-width: 100%;
+  padding: 120px 0;
 }
 
 .portfolio-section .container {
@@ -307,16 +302,22 @@ ul {
   margin-bottom: 72px;
 }
 
+.container-portfolio-items{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-list {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 24px;
+  gap: 48px 24px;
 }
 
 .portfolio-items {
-  padding: 32px 16px 8px 16px;
   text-align: start;
+  margin-bottom: 8px
 }
 .portfolio-items-text {
   padding: 0 16px 32px 16px;
@@ -329,6 +330,7 @@ ul {
   flex-shrink: 0;
   background: #2e2f42;
   max-width: 100%;
+  padding: 100px 0;
 }
 
 .footer-style .container {
