@@ -114,7 +114,7 @@ ul {
 .contacts-link {
   display: flex;
   gap: 40px;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .contacts-link .link {
@@ -136,8 +136,7 @@ ul {
 
 .first-block .container {
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 .title {
   color: #fff;
@@ -179,10 +178,12 @@ ul {
 }
 
 /* section-2 */
+.Advantages {
+  padding: 120px 0;
+}
 
 .Advantages .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
 }
 
 .visually-hidden {
@@ -192,7 +193,6 @@ ul {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -205,7 +205,7 @@ ul {
 
 .list-items {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .text-title {
@@ -251,7 +251,11 @@ ul {
 .team-list {
   background-color: #f4f4fd;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+
+.soft-skills{
+  margin-bottom: 8px;
 }
 
 .team-link-list {
