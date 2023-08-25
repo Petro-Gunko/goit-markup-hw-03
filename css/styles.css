@@ -247,6 +247,7 @@ ul {
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
+
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -261,6 +262,8 @@ ul {
 
 .team-link-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .names-our-team {
@@ -271,7 +274,7 @@ ul {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .profession-our-team {
