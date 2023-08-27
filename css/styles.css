@@ -31,7 +31,6 @@ body {
 }
 
 .top-line {
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 .top-line .container {
@@ -88,7 +87,8 @@ ul {
   height: auto;
 }
 
-.link-main-iteams{
+.link-main-iteams {
+  display: block;
   padding: 24px 0;
 }
 
@@ -114,7 +114,6 @@ ul {
 .contacts-link {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-link .link {
@@ -134,7 +133,6 @@ ul {
   padding: 188px 0;
 }
 
-
 .title {
   color: #fff;
   font-size: 56px;
@@ -146,6 +144,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* button */
 
 .modal-btn {
   display: block;
@@ -179,7 +179,6 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -227,7 +226,6 @@ ul {
   text-align: center;
   padding: 120px 0;
 }
-
 
 .title-team {
   color: #2e2f42;
@@ -289,12 +287,6 @@ ul {
   padding: 120px 0;
 }
 
-.portfolio-section .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  text-align: center;
-}
-
 .title-portfolio {
   text-align: center;
   font-size: 36px;
@@ -305,7 +297,7 @@ ul {
   margin-bottom: 72px;
 }
 
-.container-portfolio-items{
+.container-portfolio-items {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -319,12 +311,7 @@ ul {
 }
 
 .portfolio-items {
-  text-align: start;
-  margin-bottom: 8px
-}
-.portfolio-items-text {
-  padding: 0 16px 32px 16px;
-  text-align: start;
+  margin-bottom: 8px;
 }
 
 /* footer */
@@ -336,11 +323,6 @@ ul {
   padding: 100px 0;
 }
 
-.footer-style .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .studio-footer {
   color: #f4f4fd;
 }
@@ -350,7 +332,6 @@ ul {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   width: 264px;
-  padding-top: 17px;
 }
 .logo-footer {
   display: inline-block;
